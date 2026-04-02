@@ -45,13 +45,14 @@ All three tasks execute in sequence and print their output to the console. Below
 
 ### Task 1 — Custom Math Module (`math_utils.py`, Section 1 of `main.py`)
 
-**Files involved:** `math_utils.py`, `main.py` (lines 1–6)
+**Files involved:** `math_utils.py`, `main.py`
 
 **What it does:** Defines three arithmetic functions in `math_utils.py` and imports the module into `main.py` using an alias (`mu`). Calls `add()`, `subtract()`, and `square()` and prints the results.
 
 **Key concepts:**
-- **Custom modules** — any `.py` file is a module. Placing reusable functions in a separate file keeps code organised and avoids repetition.
-- **`import ... as` alias** — `import math_utils as mu` lets you refer to the module with a shorter name (`mu.add(...)` instead of `math_utils.add(...)`).
+- **Custom modules** — any `.py` file is a module. Helps in organizing related functions (math operations in this case).
+- **`import ... as` alias** — `import math_utils as mu` lets you refer to the module with a shorter name (`mu.add(...)` instead of `math_utils.add(...)`).Thus makes function calls cleaner and easier to read
+- **Modular Programming** - Breaking code into smaller, reusable parts instead of writing everything in one file.Improves readability and maintainability.
 
 **Functions in `math_utils.py`:**
 
@@ -84,7 +85,7 @@ Square of 5: 25
 
 ### Task 2 — Custom String Utility Module (`string_utils.py`, Section 2 of `main.py`)
 
-**Files involved:** `string_utils.py`, `main.py` (lines 8–14)
+**Files involved:** `string_utils.py`, `main.py` 
 
 **What it does:** Defines three string helper functions in `string_utils.py` and imports the module with alias `st`. Applies all three functions to the string `"hello world"` and prints the results.
 
@@ -177,10 +178,37 @@ Price after tax on 500: 525.0
 
 ---
 
-## Key Concepts Summary
+## Key Concepts (Summary)
 
-| Task | File(s) | Concept |
-|------|---------|---------|
-| 1 | `math_utils.py` | Creating a custom module; `import ... as` alias |
-| 2 | `string_utils.py` | Single-responsibility modules; string slicing `[::-1]`; `.split()` |
-| 3 | `shop_package/` | Creating a package with `__init__.py`; submodule imports; two import styles |
+* **Modular Programming**
+  Breaking code into smaller modules improves readability, reuse, and maintenance.
+
+* **Custom Modules**
+  Any `.py` file can be used to group related functions and avoid code duplication.
+
+* **Importing & Aliases**
+  Using `import` and `import ... as` helps organize code and make it more readable.
+
+* **Separation of Concerns**
+  Different modules handle different responsibilities (math, strings, billing, etc.).
+
+* **Packages in Python**
+  A package is a folder of related modules, helping structure larger projects.
+
+* **Role of `__init__.py`**
+  Makes a folder a package and can simplify access to functions.
+
+* **Different Import Styles**
+
+  * Full module import
+  * Selective function import
+    Used based on readability and need.
+
+* **Code Reusability**
+  Functions can be reused across files without rewriting logic.
+
+* **Basic String Handling**
+  Use of slicing, splitting, and built-in methods for efficient text processing.
+
+* **Clean Project Structure**
+  Organizing files properly makes code scalable and easier to manage.
