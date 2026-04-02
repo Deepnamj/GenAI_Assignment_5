@@ -180,22 +180,22 @@ Price after tax on 500: 525.0
 
 ## Key Concepts (Summary)
 
-* **Modular Programming**
+* **Modular Programming** :
   Breaking code into smaller modules improves readability, reuse, and maintenance.
 
-* **Custom Modules**
+* **Custom Modules** :
   Any `.py` file can be used to group related functions and avoid code duplication.
 
-* **Importing & Aliases**
+* **Importing & Aliases** :
   Using `import` and `import ... as` helps organize code and make it more readable.
 
-* **Separation of Concerns**
+* **Separation of Concerns** :
   Different modules handle different responsibilities (math, strings, billing, etc.).
 
-* **Packages in Python**
+* **Packages in Python** :
   A package is a folder of related modules, helping structure larger projects.
 
-* **Role of `__init__.py`**
+* **Role of `__init__.py`** :
   Makes a folder a package and can simplify access to functions.
 
 * **Different Import Styles**
@@ -204,11 +204,11 @@ Price after tax on 500: 525.0
   * Selective function import
     Used based on readability and need.
 
-* **Code Reusability**
+* **Code Reusability** :
   Functions can be reused across files without rewriting logic.
 
-* **Basic String Handling**
+* **Basic String Handling** :
   Use of slicing, splitting, and built-in methods for efficient text processing.
 
-* **Clean Project Structure**
+* **Clean Project Structure** :
   Organizing files properly makes code scalable and easier to manage.
