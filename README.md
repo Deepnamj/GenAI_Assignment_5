@@ -15,7 +15,7 @@ No external libraries are required — all code uses Python built-ins only.
 ## Project Structure
 
 ```
-project/
+Assignment_5/
 │
 ├── main.py                  # Entry point — runs all three tasks
 ├── math_utils.py            # Task 1: custom math module
